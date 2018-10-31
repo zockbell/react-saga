@@ -1,0 +1,43 @@
+.show {
+    /* display: block; */
+    /* opacity: 1;
+    transition: all .3s ease-in; */
+    animation: show-Css 2s ease-in forwards;
+}
+.hide {
+    /* display: none; */
+    /* opacity: 0;
+    transition: all .3s ease-in; */
+    animation: hide-Css 2s ease-in forwards;
+}
+
+
+@keyframes show-Css {
+    0% {
+        opacity: 0;
+        background: red;
+    }
+    50% {
+        opacity: .5;
+        background: pink;
+    }
+    100% {
+        opacity: 1;
+        background: #000;
+    }
+}
+
+@keyframes hide-Css {
+    0% {
+        opacity: 1;
+        background: #000;
+    }
+    50% {
+        opacity: .5;
+        background: pink;
+    }
+    100% {
+        opacity: 0;
+        background: red;
+    }
+}
