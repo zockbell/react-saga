@@ -9,9 +9,10 @@ react, react-saga, ant design
 
 #### 安装教程
 
-1. yarn add install
-2. yarn add react-saga
-3. yarn add antd
+1. npm install --svae
+2. yarn add antd
+3. yarn add redux
+4. yarn add react-saga
 
 
 #### 作者
