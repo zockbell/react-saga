@@ -13,6 +13,7 @@ react, react-saga, ant design
 2. yarn add antd
 3. yarn add redux
 4. yarn add react-saga
+5. yarn start
 
 
 #### 作者
